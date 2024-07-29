@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(() => {
         alert("Email enviado com sucesso!");
         form.reset();
+        window.location.reload(); // Coloquei aqui o codigo de reload da tela ok!!!
       })
       .catch((error) => {
         alert("Erro ao enviar email: " + JSON.stringify(error));
