@@ -191,7 +191,7 @@ main {
   display: none;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: start;
   gap: 2rem;
   padding: 0 2rem;
   padding-top: 5rem;
@@ -289,7 +289,6 @@ main {
 .slide-card {
   width: 100%;
   max-width: 800px;
-  height: 100%;
   padding: 2rem;
   margin-bottom: 3rem;
   background: #fff;

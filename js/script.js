@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("myModal");
   const closeModal = document.getElementById("closeModal");
   const form = document.querySelector("form[data-form]");
+  const contactForm = document.getElementById("contactForm");
 
   let selectedProjectTitle = "";
 
@@ -53,6 +54,8 @@ document.addEventListener("DOMContentLoaded", () => {
       // Show the forms-div and enable page scrolling
       formsDiv.style.display = "flex";
       landingPage.style.overflow = "auto";
+
+      contactForm.scrollIntoView({ behavior: "smooth" });
     }
   };
 
